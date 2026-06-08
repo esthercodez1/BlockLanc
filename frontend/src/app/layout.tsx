@@ -8,6 +8,8 @@ import { ThemeProvider } from '@/contexts/ThemeContext';
 import { ThemeScript } from './theme-script';
 import { JsonLd } from '@/components/seo/JsonLd';
 
+const siteUrl = 'https://block-lanc.vercel.app/';
+
 const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
