@@ -1,0 +1,53 @@
+
+**/settings/Mainnet.toml
+**/settings/Testnet.toml
+.cache/**
+history.txt
+
+logs
+*.log
+npm-debug.log*
+coverage
+*.info
+costs-reports.json
+node_modules
+
+# env files
+.env
+.env.local
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env.local
+frontend/.env.*
+!frontend/.env.example
+
+# Deployment plans
+deployments/default.testnet-plan.yaml
+deployments/default.mainnet-plan.yaml
+deployments/default.devnet-plan.yaml
+!deployments/*.example
+
+# Build artifacts
+target/
+test-results/
+
+# Backend
+backend/node_modules/
+
+# Screenshots and debug files
+*.png
+
+# Editor config
+.vscode/
+
+# Tracking files
+ProjectTracking.md
+SessionLog.md
+NextSession.md
+Decisions.md
+
+# Firecrawl cache
+.firecrawl/
