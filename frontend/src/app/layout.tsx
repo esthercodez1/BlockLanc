@@ -9,9 +9,6 @@ import { ThemeScript } from './theme-script';
 import { JsonLd } from '@/components/seo/JsonLd';
 
 const inter = Inter({ subsets: ['latin'] });
-
-const siteUrl = 'https://blocklancing.vercel.app';
-
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
@@ -81,6 +78,10 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <meta name="theme-color" content="#2563eb" />
+        <meta
+          name="talentapp:project_verification"
+          content="337244543659fe195e6a402ebf16d11b47634a02c52f4e55050540dc974b2587f5566a4b2aa4567f77b595632cebc0e65bcf78b2588a527a0ee153086cf5ed98"
+        />
         <ThemeScript />
         <JsonLd />
       </head>
